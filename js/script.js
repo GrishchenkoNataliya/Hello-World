@@ -116,14 +116,15 @@
 // Мое решение не получилось.
 // 1.	Задача. Відсортувати масив імен за останньою літерою.
 
-// let names = ['Natan', 'Milana', 'Antona', 'Nataliya', 'Nadiya']
-// let n=na.filter((val,i,arr)=>{
-//     // let nam=val.toUpperCase()
+let names = ['Natan', 'Milana', 'Antona', 'Nataliya', 'Nadiya']
+let n=na.filter((val,i,arr)=>{
+    // let nam=val.toUpperCase()
     
 
-//     return nname[0]===na[na.length - 1 ]
-// })
-// document.write(n)
+    return nname[0]===na[na.length - 1 ]
+})
+document.write(n)
+
 
 //---------------------------------------------------
 
@@ -136,7 +137,7 @@
 // };
  
 // names.sort(compareFunction)
-//----------------------------------------------------
+// //----------------------------------------------------
 
 // Задача 3. Дано масив цін товарів. Для цін, які менші за 1000грн. додати 20% ціни, для тих, які більші за 1000 грн. відняти 30%.
  
